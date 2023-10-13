@@ -791,3 +791,57 @@ footer p {
             font-size: 18px;
         }
         /* middle text p */
+
+            /* margin-bottom middle text p - section 2 */
+    .section2 > main > div > p:nth-of-type(1) {
+        margin-bottom: 25px;
+    }
+    /* margin-bottom middle text p */
+
+
+    main > div:nth-child(2) > div {
+        gap: 10px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h5 {
+        margin-top: 60px;
+        font-size: 18px;
+
+    }
+
+    ul {
+        margin-top: 0;
+        font-size: 18px;
+    }
+
+    ol {
+        padding: 0 0 0 22px;
+    }
+
+    h6 {
+        font-size: 20px;
+        margin-left: 6px;
+    }
+
+    main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+        font-size: 12px;
+        font-family: 'Nunito';
+    }
+
+    main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
+        font-size: 12px;
+        font-family: 'Nunito';
+    }
+
+    main > div :nth-child(2) > div:nth-child(1) {
+        border-radius: 0 0 0 10px;
+    }
