@@ -599,6 +599,7 @@ footer p {
 
 
 
+
 /* Media Queris att texten slutar växa mellan 800 - 900px*/
 
 @media (min-width: 800px) and (max-width: 900px) {
@@ -736,63 +737,64 @@ footer p {
         border-radius: 10px 0 0 10px;
     }
 
-        /* Grid template - Channel ORANGE */
-        .section > div {
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            gap: 10px;
-        }
-    
-        .section > div > div:nth-child(1) {
-            border-radius: 10px 0 10px 10px;
-            grid-column: 1;
-            grid-row: 1;
-        }
-        
-        
-        .section > div > div:nth-child(2) {
-            border-radius: 10px 10px 10px 0;
-            grid-column: 2 / 4;
-        }
-        
-        .section > div > div:nth-child(3) {
-            border-radius: 0 10px 10px 10px;
-            grid-column: 2;
-            grid-row: 2;
-    
-            justify-content: start;
-            align-items: flex-end;
-            display: flex;
-        }
-    
-        .section > div > div:nth-child(4) {
-            border-radius: 10px 10px 0 10px;
-            grid-column: 3;
-            grid-row: 2;
-        }
-    
-    
-        main > div:nth-child(1) {
-            width: 100%;
-            padding-right: 0;
-            margin-right: 0;
-        }
-    
-    
-        main > div:nth-child(2) {
-            width: 100%;
-            gap: 10px;
-        }
-    
-        /* middle text p */
-        main > div > p:nth-of-type(1) {
-            margin-bottom: 10px;
-            margin-top: 60px;
-            font-size: 18px;
-        }
-        /* middle text p */
 
-            /* margin-bottom middle text p - section 2 */
+    /* Grid template - Channel ORANGE */
+    .section > div {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .section > div > div:nth-child(1) {
+        border-radius: 10px 0 10px 10px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    
+    .section > div > div:nth-child(2) {
+        border-radius: 10px 10px 10px 0;
+        grid-column: 2 / 4;
+    }
+    
+    .section > div > div:nth-child(3) {
+        border-radius: 0 10px 10px 10px;
+        grid-column: 2;
+        grid-row: 2;
+
+        justify-content: start;
+        align-items: flex-end;
+        display: flex;
+    }
+
+    .section > div > div:nth-child(4) {
+        border-radius: 10px 10px 0 10px;
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+
+    main > div:nth-child(1) {
+        width: 100%;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+
+    main > div:nth-child(2) {
+        width: 100%;
+        gap: 10px;
+    }
+
+    /* middle text p */
+    main > div > p:nth-of-type(1) {
+        margin-bottom: 10px;
+        margin-top: 60px;
+        font-size: 18px;
+    }
+    /* middle text p */
+
+    /* margin-bottom middle text p - section 2 */
     .section2 > main > div > p:nth-of-type(1) {
         margin-bottom: 25px;
     }
@@ -845,12 +847,15 @@ footer p {
     main > div :nth-child(2) > div:nth-child(1) {
         border-radius: 0 0 0 10px;
     }
+
     main > div :nth-child(2) > div:nth-child(2) {
         border-radius: 0 0 10px 0;
     }
 
-       /* font-size grid-templet p section */
-       .section > div > div:nth-child(1) > p {
+
+
+    /* font-size grid-templet p section */
+    .section > div > div:nth-child(1) > p {
         font-size: 15px;
         padding: 13px;
     }
@@ -928,8 +933,10 @@ footer p {
     
     /* Border-radius section 2 */
 
-     /* font-size list */
-     .section2 > main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+
+
+    /* font-size list */
+    .section2 > main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
         font-size: 12px;
     }
 
@@ -1064,3 +1071,25 @@ footer p {
     }
 }
 
+    
+
+
+
+
+/* Media queries tabletform 
+
+@media (min-width: 500px) and (max-width: 800px){
+
+
+}*/
+
+
+
+
+
+/* test på att sätta bredden så den slutar växa??
+@media (min-width: 1200px){
+    #container1 {
+        width: 960px;
+    }
+}*/
