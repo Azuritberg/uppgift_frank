@@ -1,0 +1,53 @@
+/* */ 
+
+@font-face {
+    font-family: 'Racing_Sans';
+    src: url(Fonts/Racing_Sans_One/RacingSansOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Robota blackitalic';
+    src: url(Fonts/Roboto/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Dangrek';
+    src: url(Fonts/Dangrek/Dangrek-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url(Fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Nunito italic';
+    src: url(Fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf);
+}
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /*width: clamp(300px 100% 1200px)*/
+}
+
+/* Body styles */
+body {
+    background-image: url(images/Bild1_komp.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /*font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));*/
+    /*max-width: 1200px;*/
+    /* kanske funkar att bestämma width:en 
+    margin: 0 auto;
+    width: min(1200px, calc(80% + 100px));*/
+}
