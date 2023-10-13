@@ -373,3 +373,221 @@ main > div :nth-child(2) > div:nth-child(1) {
     padding: 15px;   
     font-size: 1.2vw; 
 }
+
+
+
+
+/* Second section Blonde */
+
+.section2 {
+    background-color: rgba(49, 0, 211, 0.2);
+    border: 2px solid rgba(49, 0, 211, 0.2);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.section2 > main > div >div:nth-child(1) > img:nth-of-type(1) {
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+    z-index: 1;
+    transition: opacity 1s;
+}
+
+.section2 > main > div >div:nth-child(1) > img:nth-of-type(2) {
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+
+.section2 > main > div > div:nth-child(1) > img:nth-of-type(1):hover {
+    opacity: 0;
+}
+
+
+.section2 > main > div > p:nth-of-type(1) {
+    padding-top: 10px;
+    margin-bottom: 0;
+    margin-right: 5px;
+
+    color: #f87122;
+    font-family: 'Nunito';
+
+    font-size: 1.3vw;
+    line-height: 1.2;
+}
+
+
+.section2 > main > div:nth-child(1) {
+    width: 60%;
+    padding-right: 11px;
+}
+
+
+.section2 > main > div:nth-child(2) {
+    width: 40%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.section2 > main > div:nth-child(2) > div {
+    display: flex;
+    gap: 1vw;
+}
+
+
+.section2 > main > div:nth-child(2) > div > div {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+
+.section2 > main > div:nth-child(2) > div > div:nth-child(1) > h6 {
+    font-family: 'Nunito';
+    color: #8af22f;
+}
+
+.section2 > main > div:nth-child(2) > div > div:nth-child(2) > h6 {
+    font-family: 'Nunito';
+    color: #8af22f;
+}
+
+.section2 > main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+    padding: 0;
+    font-size: 1vw;
+    
+    color: #8af22f;
+}
+
+
+.section2 > main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
+    padding: 0;
+    font-size: 1vw;
+    
+    color: #8af22f;
+}
+
+
+.section2 > main > div:nth-child(2) > div > div:nth-child(1) > ol > li:nth-child(1) {
+    font-family: 'Nunito';
+}
+
+
+.section2 > main > div:nth-child(2) > div > div:nth-child(2) > ol > li:nth-child(1) {
+    font-family: 'Nunito';
+}
+
+.section2 > main > div :nth-child(2) > div:nth-child(2) {
+    position: relative;
+
+    background: linear-gradient(#699e6d, #10422a);
+    border-radius: 0 0 10px 0;
+    padding: 15px;
+}
+
+.section2 > main > div :nth-child(2) > div:nth-child(1) {
+    position: relative;
+
+    background: linear-gradient(#699e6d, #10422a);
+    border-radius: 0 0 0 10px;
+    padding: 15px;
+}
+
+
+.section2 > div {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr;
+    gap: 1vw;
+    font-size: 1.1vw;
+}
+
+
+.section2 > main > div :nth-child(2) > div:nth-child(1) {
+    position: relative;
+}
+
+
+.section2 > div > div:nth-child(1) {
+    background: linear-gradient(#b5d03e, #12a947);
+    border-radius: 10px 0 10px 10px;
+    grid-column: 1;
+}
+
+
+.section2 > div > div:nth-child(1) > p {
+    color: #10422a;
+    padding: 20px;   
+    font-size: 1.3vw; 
+}
+
+.section2 > div > div:nth-child(2) {
+    background: linear-gradient(#b5d03e, #12a947);
+    border-radius: 10px 10px 10px 0;
+}
+
+
+.section2 > div > div:nth-child(2) > p {
+    color: #10422a;
+    padding: 20px;   
+    font-size: 1.3vw; 
+}
+
+
+.section2 > div > div:nth-child(3) {
+    /*height: 12vw;*/
+    background-image: url(images/frank-ocean-novel.jpg);
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 0 10px 10px 10px;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.section2 > div > div:nth-child(3) > p {
+    color: #f5dede;
+    padding: 10px;   
+    margin-top: 110px;
+    text-align: left;
+}
+
+
+.section2 > div > div:nth-child(4) {
+    background: linear-gradient(#b5d03e, #12a947);
+    border-radius: 10px 10px 0 10px;
+}
+
+
+.section2 > div > div:nth-child(4) > p {
+    color: #10422a;
+    padding: 20px;  
+    font-size: 1.3vw;  
+}
+
+
+/* footer styles */
+footer {
+    padding: 25px;
+    margin-top: 25px;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Nunito';
+    font-size: 1vw;
+    color: #3100d3;
+}
