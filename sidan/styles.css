@@ -1,4 +1,4 @@
-/* */ 
+/* */
 
 @font-face {
     font-family: 'Racing_Sans';
@@ -50,10 +50,10 @@ body {
     /* max-width: 1200px; */
     width: clamp(300px, 100%, 1120px);
     background-color: rgba(49, 0, 211, 0.2);
-    
+
     margin-top: 40px;
     border-radius: 10px;
-    
+
 }
 
 h1 {
@@ -98,11 +98,11 @@ nav a:focus {
     transition: 250ms;
     color: #3100d3;
     background: linear-gradient(#eed29e, #ab68ea);
-    
+
 }
 
 /* styles navigationbar hover MUSIK selekterad */
-nav a:nth-child(2){
+nav a:nth-child(2) {
     font-style: italic;
     font-weight: bold;
     box-shadow: 0px 0px 0px #f87122;
@@ -184,7 +184,7 @@ main {
     margin-bottom: 10px;
 }
 
-main > div >div:nth-child(1) > img:nth-of-type(1) {
+main>div>div:nth-child(1)>img:nth-of-type(1) {
     width: 100%;
     border-radius: 10px 0 0 10px;
     position: relative;
@@ -192,7 +192,7 @@ main > div >div:nth-child(1) > img:nth-of-type(1) {
     transition: opacity 1s;
 }
 
-main > div >div:nth-child(1) > img:nth-of-type(2) {
+main>div>div:nth-child(1)>img:nth-of-type(2) {
     width: 100%;
     border-radius: 10px 0 0 10px;
     position: absolute;
@@ -201,11 +201,11 @@ main > div >div:nth-child(1) > img:nth-of-type(2) {
     z-index: 0;
 }
 
-main > div > div:nth-child(1) > img:nth-of-type(1):hover {
+main>div>div:nth-child(1)>img:nth-of-type(1):hover {
     opacity: 0;
 }
 
-main > div > p:nth-of-type(1) {
+main>div>p:nth-of-type(1) {
     padding-top: 5px;
     margin-bottom: 0;
 
@@ -215,13 +215,13 @@ main > div > p:nth-of-type(1) {
     line-height: 1.2;
 }
 
-main > div:nth-child(1) {
+main>div:nth-child(1) {
     width: 60%;
     padding-right: 11px;
 }
 
 
-main > div:nth-child(2) {
+main>div:nth-child(2) {
     width: 40%;
     position: relative;
     gap: 1vw;
@@ -231,7 +231,7 @@ main > div:nth-child(2) {
 }
 
 
-main > div:nth-child(1) > div {
+main>div:nth-child(1)>div {
     display: flex;
     gap: 1vw;
 
@@ -239,18 +239,18 @@ main > div:nth-child(1) > div {
     padding: 10px;
 }
 
-main > div:nth-child(2) > div {
+main>div:nth-child(2)>div {
     display: flex;
     gap: 1vw;
 
 }
 
-main > div:nth-child(2) > div > div {
+main>div:nth-child(2)>div>div {
     flex-basis: 0;
     flex-grow: 1;
 }
 
-main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+main>div:nth-child(2)>div>div:nth-child(1)>ol>li {
     padding: 0;
     font-size: 1vw;
 
@@ -258,13 +258,13 @@ main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
 }
 
 
-main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
+main>div:nth-child(2)>div>div:nth-child(2)>ol>li {
     color: #f5dede;
     font-size: 1vw;
 }
 
 
-main > div :nth-child(2) > div:nth-child(2) {
+main>div :nth-child(2)>div:nth-child(2) {
     position: relative;
 
     background: linear-gradient(#f89f22, #f87122);
@@ -272,7 +272,7 @@ main > div :nth-child(2) > div:nth-child(2) {
     padding: 15px;
 }
 
-main > div :nth-child(2) > div:nth-child(1) {
+main>div :nth-child(2)>div:nth-child(1) {
     position: relative;
 
     background: linear-gradient(#f89f22, #f87122);
@@ -280,7 +280,7 @@ main > div :nth-child(2) > div:nth-child(1) {
     padding: 15px;
 }
 
-.section > div {
+.section>div {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
     gap: 1vw;
@@ -288,35 +288,35 @@ main > div :nth-child(2) > div:nth-child(1) {
 }
 
 
-.section > div > div:nth-child(1) {
+.section>div>div:nth-child(1) {
     background: linear-gradient(#eed29e, #ab68ea);
     border-radius: 10px 0 10px 10px;
     grid-column: 1;
 }
 
 
-.section > div > div:nth-child(1) > p {
+.section>div>div:nth-child(1)>p {
     color: #3100d3;
-    padding: 15px;  
-    font-size: 1.2vw; 
+    padding: 15px;
+    font-size: 1.2vw;
 }
 
 
-.section > div > div:nth-child(2) {
+.section>div>div:nth-child(2) {
     background: linear-gradient(#eed29e, #ab68ea);
     grid-column: 3 / 4;
     border-radius: 10px 10px 10px 0;
 }
 
 
-.section > div > div:nth-child(2) > p {
+.section>div>div:nth-child(2)>p {
     color: #3100d3;
-    padding: 15px;  
-    font-size: 1.2vw; 
+    padding: 15px;
+    font-size: 1.2vw;
 }
 
 
-.section > div > div:nth-child(3) {
+.section>div>div:nth-child(3) {
     /*height: 12vw;*/
     background-image: url(images/frank.jpg);
     background-size: cover;
@@ -328,24 +328,24 @@ main > div :nth-child(2) > div:nth-child(1) {
 }
 
 
-.section > div > div:nth-child(3) > p {
+.section>div>div:nth-child(3)>p {
     color: #f5dede;
-    padding: 10px;   
+    padding: 10px;
     margin-top: 80px;
     text-align: left;
 }
 
 
-.section > div > div:nth-child(4) {
+.section>div>div:nth-child(4) {
     background: linear-gradient(#eed29e, #ab68ea);
     border-radius: 10px 10px 0 10px;
 }
 
 
-.section > div > div:nth-child(4) > p {
+.section>div>div:nth-child(4)>p {
     color: #3100d3;
-    padding: 15px;   
-    font-size: 1.2vw; 
+    padding: 15px;
+    font-size: 1.2vw;
 }
 
 
@@ -366,7 +366,7 @@ main {
     margin-bottom: 10px;
 }
 
-.section2 > main > div >div:nth-child(1) > img:nth-of-type(1) {
+.section2>main>div>div:nth-child(1)>img:nth-of-type(1) {
     width: 100%;
     border-radius: 10px 0 0 10px;
     position: relative;
@@ -374,7 +374,7 @@ main {
     transition: opacity 1s;
 }
 
-.section2 > main > div >div:nth-child(1) > img:nth-of-type(2) {
+.section2>main>div>div:nth-child(1)>img:nth-of-type(2) {
     width: 100%;
     border-radius: 10px 0 0 10px;
     position: absolute;
@@ -384,12 +384,12 @@ main {
 }
 
 
-.section2 > main > div > div:nth-child(1) > img:nth-of-type(1):hover {
+.section2>main>div>div:nth-child(1)>img:nth-of-type(1):hover {
     opacity: 0;
 }
 
 
-.section2 > main > div > p:nth-of-type(1) {
+.section2>main>div>p:nth-of-type(1) {
     padding-top: 10px;
     margin-bottom: 0;
     margin-right: 5px;
@@ -402,13 +402,13 @@ main {
 }
 
 
-.section2 > main > div:nth-child(1) {
+.section2>main>div:nth-child(1) {
     width: 60%;
     padding-right: 11px;
 }
 
 
-.section2 > main > div:nth-child(2) {
+.section2>main>div:nth-child(2) {
     width: 40%;
     position: relative;
 
@@ -417,54 +417,54 @@ main {
 }
 
 
-.section2 > main > div:nth-child(2) > div {
+.section2>main>div:nth-child(2)>div {
     display: flex;
     gap: 1vw;
 }
 
 
-.section2 > main > div:nth-child(2) > div > div {
+.section2>main>div:nth-child(2)>div>div {
     flex-basis: 0;
     flex-grow: 1;
 }
 
 
-.section2 > main > div:nth-child(2) > div > div:nth-child(1) > h6 {
+.section2>main>div:nth-child(2)>div>div:nth-child(1)>h6 {
     font-family: 'Nunito';
     color: #8af22f;
 }
 
-.section2 > main > div:nth-child(2) > div > div:nth-child(2) > h6 {
+.section2>main>div:nth-child(2)>div>div:nth-child(2)>h6 {
     font-family: 'Nunito';
     color: #8af22f;
 }
 
-.section2 > main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+.section2>main>div:nth-child(2)>div>div:nth-child(1)>ol>li {
     padding: 0;
     font-size: 1vw;
-    
+
     color: #8af22f;
 }
 
 
-.section2 > main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
+.section2>main>div:nth-child(2)>div>div:nth-child(2)>ol>li {
     padding: 0;
     font-size: 1vw;
-    
+
     color: #8af22f;
 }
 
 
-.section2 > main > div:nth-child(2) > div > div:nth-child(1) > ol > li:nth-child(1) {
+.section2>main>div:nth-child(2)>div>div:nth-child(1)>ol>li:nth-child(1) {
     font-family: 'Nunito';
 }
 
 
-.section2 > main > div:nth-child(2) > div > div:nth-child(2) > ol > li:nth-child(1) {
+.section2>main>div:nth-child(2)>div>div:nth-child(2)>ol>li:nth-child(1) {
     font-family: 'Nunito';
 }
 
-.section2 > main > div :nth-child(2) > div:nth-child(2) {
+.section2>main>div :nth-child(2)>div:nth-child(2) {
     position: relative;
 
     background: linear-gradient(#699e6d, #10422a);
@@ -472,7 +472,7 @@ main {
     padding: 15px;
 }
 
-.section2 > main > div :nth-child(2) > div:nth-child(1) {
+.section2>main>div :nth-child(2)>div:nth-child(1) {
     position: relative;
 
     background: linear-gradient(#699e6d, #10422a);
@@ -481,7 +481,7 @@ main {
 }
 
 
-.section2 > div {
+.section2>div {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr 1fr;
     gap: 1vw;
@@ -489,38 +489,38 @@ main {
 }
 
 
-.section2 > main > div :nth-child(2) > div:nth-child(1) {
+.section2>main>div :nth-child(2)>div:nth-child(1) {
     position: relative;
 }
 
 
-.section2 > div > div:nth-child(1) {
+.section2>div>div:nth-child(1) {
     background: linear-gradient(#b5d03e, #12a947);
     border-radius: 10px 0 10px 10px;
     grid-column: 1;
 }
 
 
-.section2 > div > div:nth-child(1) > p {
+.section2>div>div:nth-child(1)>p {
     color: #10422a;
-    padding: 20px;   
-    font-size: 1.3vw; 
+    padding: 20px;
+    font-size: 1.3vw;
 }
 
-.section2 > div > div:nth-child(2) {
+.section2>div>div:nth-child(2) {
     background: linear-gradient(#b5d03e, #12a947);
     border-radius: 10px 10px 10px 0;
 }
 
 
-.section2 > div > div:nth-child(2) > p {
+.section2>div>div:nth-child(2)>p {
     color: #10422a;
-    padding: 20px;   
-    font-size: 1.3vw; 
+    padding: 20px;
+    font-size: 1.3vw;
 }
 
 
-.section2 > div > div:nth-child(3) {
+.section2>div>div:nth-child(3) {
     background-image: url(images/frank-ocean-novel.jpg);
     background-size: cover;
     background-position: center;
@@ -531,24 +531,24 @@ main {
 }
 
 
-.section2 > div > div:nth-child(3) > p {
+.section2>div>div:nth-child(3)>p {
     color: #f5dede;
-    padding: 10px;   
+    padding: 10px;
     margin-top: 110px;
     text-align: left;
 }
 
 
-.section2 > div > div:nth-child(4) {
+.section2>div>div:nth-child(4) {
     background: linear-gradient(#b5d03e, #12a947);
     border-radius: 10px 10px 0 10px;
 }
 
 
-.section2 > div > div:nth-child(4) > p {
+.section2>div>div:nth-child(4)>p {
     color: #10422a;
-    padding: 20px;  
-    font-size: 1.3vw;  
+    padding: 20px;
+    font-size: 1.3vw;
 }
 
 
@@ -576,73 +576,93 @@ footer p {
     h1 {
         font-size: 50px;
     }
+
     nav a {
         font-size: 20px;
     }
+
     /* styles navigationbar hover */
     nav a:hover,
     nav a:focus {
-        font-size: 20px;    
+        font-size: 20px;
     }
+
     ul {
         font-size: 15px;
     }
+
     h2 {
         font-size: 40px;
     }
+
     h3 {
         font-size: 20px;
     }
+
     h5 {
         font-size: 17px;
     }
-   
+
     h6 {
         font-size: 15px;
     }
-    main > div > p:nth-of-type(1) {
+
+    main>div>p:nth-of-type(1) {
         font-size: 13px;
     }
-    main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+
+    main>div:nth-child(2)>div>div:nth-child(1)>ol>li {
         font-size: 12px;
     }
-    
-    main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
+
+    main>div:nth-child(2)>div>div:nth-child(2)>ol>li {
         font-size: 12px;
     }
-    .section > div {
+
+    .section>div {
         font-size: 12px;
     }
-    .section > div > div:nth-child(1) > p {
-        font-size: 12px; 
+
+    .section>div>div:nth-child(1)>p {
+        font-size: 12px;
     }
-    .section > div > div:nth-child(2) > p {
-        font-size: 12px; 
+
+    .section>div>div:nth-child(2)>p {
+        font-size: 12px;
     }
-    .section > div > div:nth-child(4) > p {  
-        font-size: 12px; 
+
+    .section>div>div:nth-child(4)>p {
+        font-size: 12px;
     }
-    .section2 > main > div > p:nth-of-type(1) {
+
+    .section2>main>div>p:nth-of-type(1) {
         font-size: 13px;
     }
-    .section2 > main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+
+    .section2>main>div:nth-child(2)>div>div:nth-child(1)>ol>li {
         font-size: 12px;
     }
-    .section2 > main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
+
+    .section2>main>div:nth-child(2)>div>div:nth-child(2)>ol>li {
         font-size: 12px;
     }
-    .section2 > div {
+
+    .section2>div {
         font-size: 12px;
     }
-    .section2 > div > div:nth-child(1) > p { 
-        font-size: 12px; 
+
+    .section2>div>div:nth-child(1)>p {
+        font-size: 12px;
     }
-    .section2 > div > div:nth-child(2) > p { 
-        font-size: 12px; 
+
+    .section2>div>div:nth-child(2)>p {
+        font-size: 12px;
     }
-    .section2 > div > div:nth-child(4) > p { 
-        font-size: 12px;  
+
+    .section2>div>div:nth-child(4)>p {
+        font-size: 12px;
     }
+
     footer p {
         font-size: 10px;
     }
@@ -690,11 +710,12 @@ footer p {
     nav a:hover,
     nav a:focus {
         /*font-size: 20px; */
-        font-size: 4vw;
-        padding: 6px;  
+        font-size: 3.8vw;
+        padding: 6px;
     }
 
-    .section, .section2 {
+    .section,
+    .section2 {
         padding: 10px;
         margin: 10px;
     }
@@ -704,34 +725,35 @@ footer p {
         margin-bottom: 20px;
     }
 
-    main > div > div:nth-child(1) > img:nth-of-type(1) {
+    main>div>div:nth-child(1)>img:nth-of-type(1) {
         border-radius: 10px 0 0 10px;
     }
-    main > div > div:nth-child(1) > img:nth-of-type(2) {
+
+    main>div>div:nth-child(1)>img:nth-of-type(2) {
         border-radius: 10px 0 0 10px;
     }
 
 
     /* Grid template - Channel ORANGE */
-    .section > div {
+    .section>div {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 10px;
     }
 
-    .section > div > div:nth-child(1) {
+    .section>div>div:nth-child(1) {
         border-radius: 10px 0 10px 10px;
         grid-column: 1;
         grid-row: 1;
     }
-    
-    
-    .section > div > div:nth-child(2) {
+
+
+    .section>div>div:nth-child(2) {
         border-radius: 10px 10px 10px 0;
         grid-column: 2 / 4;
     }
-    
-    .section > div > div:nth-child(3) {
+
+    .section>div>div:nth-child(3) {
         border-radius: 0 10px 10px 10px;
         grid-column: 2;
         grid-row: 2;
@@ -741,42 +763,44 @@ footer p {
         display: flex;
     }
 
-    .section > div > div:nth-child(4) {
+    .section>div>div:nth-child(4) {
         border-radius: 10px 10px 0 10px;
         grid-column: 3;
         grid-row: 2;
     }
 
 
-    main > div:nth-child(1) {
+    main>div:nth-child(1) {
         width: 100%;
         padding-right: 0;
         margin-right: 0;
     }
 
 
-    main > div:nth-child(2) {
+    main>div:nth-child(2) {
         width: 100%;
         gap: 10px;
     }
 
     /* middle text p */
-    main > div > p:nth-of-type(1) {
+    main>div>p:nth-of-type(1) {
         margin-bottom: 10px;
         margin-top: 60px;
         font-size: 3.5vw;
         /*font-size: 18px;*/
     }
+
     /* middle text p */
 
     /* margin-bottom middle text p - section 2 */
-    .section2 > main > div > p:nth-of-type(1) {
+    .section2>main>div>p:nth-of-type(1) {
         margin-bottom: 25px;
     }
+
     /* margin-bottom middle text p */
 
 
-    main > div:nth-child(2) > div {
+    main>div:nth-child(2)>div {
         gap: 10px;
     }
 
@@ -813,46 +837,49 @@ footer p {
         margin-left: 6px;
     }
 
-    main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+    main>div:nth-child(2)>div>div:nth-child(1)>ol>li {
         font-family: 'Nunito';
         font-size: 2.5vw;
         /*font-size: 12px;*/
-        
+
     }
 
-    main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
+    main>div:nth-child(2)>div>div:nth-child(2)>ol>li {
         font-family: 'Nunito';
         font-size: 2.5vw;
         /*font-size: 12px;*/
     }
 
-    main > div :nth-child(2) > div:nth-child(1) {
+    main>div :nth-child(2)>div:nth-child(1) {
         border-radius: 0 0 0 10px;
     }
 
-    main > div :nth-child(2) > div:nth-child(2) {
+    main>div :nth-child(2)>div:nth-child(2) {
         border-radius: 0 0 10px 0;
     }
 
 
 
     /* font-size grid-templet p section */
-    .section > div > div:nth-child(1) > p {
+    .section>div>div:nth-child(1)>p {
         /*font-size: 15px;*/
         font-size: 3vw;
         padding: 13px;
     }
-    .section > div > div:nth-child(2) > p {
+
+    .section>div>div:nth-child(2)>p {
         /*font-size: 15px;*/
         font-size: 3vw;
         padding: 13px;
     }
-    .section > div > div:nth-child(3) > p {
+
+    .section>div>div:nth-child(3)>p {
         /*font-size: 15px;*/
         font-size: 3vw;
         padding: 13px;
     }
-    .section > div > div:nth-child(4) > p {
+
+    .section>div>div:nth-child(4)>p {
         /*font-size: 15px;*/
         font-size: 3vw;
         padding: 13px;
@@ -861,89 +888,94 @@ footer p {
 
     /* Section 2 - Blonde */
 
-    .section2 > main > div:nth-child(2) > div {
+    .section2>main>div:nth-child(2)>div {
         gap: 10px;
     }
-    .section2 > main > div > div:nth-child(1) > img:nth-of-type(1) {
+
+    .section2>main>div>div:nth-child(1)>img:nth-of-type(1) {
         border-radius: 10px 0 0 10px;
     }
-    .section2 > main > div > div:nth-child(1) > img:nth-of-type(2) {
+
+    .section2>main>div>div:nth-child(1)>img:nth-of-type(2) {
         border-radius: 10px 0 0 10px;
     }
+
     /* Section 2 - Blonde */
 
 
 
     /* Grid template - Blonde */
 
-    .section2 > div {
+    .section2>div {
         grid-template-columns: 2fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 10px;
     }
 
-   .section2 > main > div:nth-child(1) {
+    .section2>main>div:nth-child(1) {
         width: 100%;
     }
 
-    .section2 > main > div:nth-child(2) {
+    .section2>main>div:nth-child(2) {
         width: 100%;
     }
 
-    .section2 > div > div:nth-child(3) {
+    .section2>div>div:nth-child(3) {
         justify-content: start;
         align-items: flex-end;
         display: flex;
     }
-     /* Grid template - Blonde */
+
+    /* Grid template - Blonde */
 
 
 
-     /* Border-radius section 2 */
+    /* Border-radius section 2 */
 
-    .section2 > div > div:nth-child(1) {
+    .section2>div>div:nth-child(1) {
         border-radius: 10px 10px 10px 0;
     }
 
-    .section2 > div > div:nth-child(2) {
+    .section2>div>div:nth-child(2) {
         border-radius: 0 10px 10px 10px;
     }
 
-    .section2 > div > div:nth-child(3) {
+    .section2>div>div:nth-child(3) {
         border-radius: 0 10px 10px 10px;
     }
 
-    .section2 > div > div:nth-child(4) {
+    .section2>div>div:nth-child(4) {
         border-radius: 10px 10px 0 10px;
     }
-    
+
     /* Border-radius section 2 */
 
 
 
     /* font-size list */
-    .section2 > main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+    .section2>main>div:nth-child(2)>div>div:nth-child(1)>ol>li {
         /*font-size: 12px;*/
         font-size: 2.5vw;
     }
 
-    .section2 > main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
-       /* font-size: 12px;*/
+    .section2>main>div:nth-child(2)>div>div:nth-child(2)>ol>li {
+        /* font-size: 12px;*/
         font-size: 2.5vw;
     }
+
     /* font-size list */
 
 
 
-    .section2 > main > div :nth-child(2) > div:nth-child(1) {
+    .section2>main>div :nth-child(2)>div:nth-child(1) {
         border-radius: 0 0 0 10px;
     }
 
-    .section2 > main > div :nth-child(2) > div:nth-child(2) {
+    .section2>main>div :nth-child(2)>div:nth-child(2) {
         border-radius: 0 0 10px 0;
     }
 
-    .section2 > main > div > p:nth-of-type(1) {
+    .section2>main>div>p:nth-of-type(1) {
         font-size: 3.5vw;
         padding-right: 0;
         margin-right: 0;
@@ -952,34 +984,38 @@ footer p {
 
 
     /* larger font-size section 2 */
-    .section2 > div > div:nth-child(1) > p {
+    .section2>div>div:nth-child(1)>p {
         /*font-size: 15px;*/
         font-size: 3vw;
         padding: 13px;
     }
-    .section2 > div > div:nth-child(2) > p {
+
+    .section2>div>div:nth-child(2)>p {
         /*font-size: 15px;*/
         font-size: 3vw;
         padding: 13px;
     }
-    .section2 > div > div:nth-child(3) > p {
+
+    .section2>div>div:nth-child(3)>p {
         /*font-size: 15px;*/
         font-size: 3vw;
         padding: 13px;
     }
-    .section2 > div > div:nth-child(4) > p {
+
+    .section2>div>div:nth-child(4)>p {
         /*font-size: 15px;*/
         font-size: 3vw;
         padding: 13px;
     }
-        /* larger font-size section 2 */
+
+    /* larger font-size section 2 */
 
     footer {
         padding: 15px;
         margin-top: 15px;
     }
 
-        
+
     footer p {
         /*font-size: 13px;*/
         font-size: 2vw;
@@ -994,83 +1030,104 @@ footer p {
 /* Media queries desktop text stops att 1200px - starts here */
 
 @media (min-width: 1200px) {
-   
+
     h1 {
         font-size: 70px;
     }
+
     nav a {
         font-size: 26px;
     }
+
     /* styles navigationbar hover */
     nav a:hover,
     nav a:focus {
-        font-size: 26px;    
+        font-size: 26px;
     }
+
     ul {
         font-size: 15.5px;
     }
+
     h2 {
         font-size: 48px;
     }
+
     h3 {
         font-size: 19px;
     }
+
     h5 {
         font-size: 20.5px;
     }
+
     /* h6 color och font list in lp */
     h6 {
         font-size: 18px;
     }
-    main > div > p:nth-of-type(1) {
+
+    main>div>p:nth-of-type(1) {
         font-size: 14.5px;
     }
-    main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+
+    main>div:nth-child(2)>div>div:nth-child(1)>ol>li {
         font-size: 12px;
     }
-    
-    main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
+
+    main>div:nth-child(2)>div>div:nth-child(2)>ol>li {
         font-size: 12px;
     }
-    .section > div {
+
+    .section>div {
         font-size: 12px;
     }
-    .section > div > div:nth-child(1) > p {
-        font-size: 15px; 
+
+    .section>div>div:nth-child(1)>p {
+        font-size: 15px;
     }
-    .section > div > div:nth-child(2) > p {
-        font-size: 15px; 
+
+    .section>div>div:nth-child(2)>p {
+        font-size: 15px;
     }
-    .section > div > div:nth-child(4) > p {  
-        font-size: 15px; 
+
+    .section>div>div:nth-child(4)>p {
+        font-size: 15px;
     }
-    .section2 > main > div > p:nth-of-type(1) {
+
+    .section2>main>div>p:nth-of-type(1) {
         font-size: 14.5px;
     }
-    .section2 > main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+
+    .section2>main>div:nth-child(2)>div>div:nth-child(1)>ol>li {
         font-size: 12px;
     }
-    .section2 > main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
+
+    .section2>main>div:nth-child(2)>div>div:nth-child(2)>ol>li {
         font-size: 12px;
     }
-    .section2 > div {
+
+    .section2>div {
         font-size: 12px;
     }
-    .section2 > div > div:nth-child(1) > p { 
-        font-size: 15px; 
+
+    .section2>div>div:nth-child(1)>p {
+        font-size: 15px;
     }
-    .section2 > div > div:nth-child(2) > p { 
-        font-size: 15px; 
+
+    .section2>div>div:nth-child(2)>p {
+        font-size: 15px;
     }
-    .section2 > div > div:nth-child(4) > p { 
-        font-size: 15px;  
+
+    .section2>div>div:nth-child(4)>p {
+        font-size: 15px;
     }
+
     footer p {
         font-size: 12px;
     }
 }
 
-    
+
 /* Media queries desktop text stops att 1200px - ends here */
 
 
