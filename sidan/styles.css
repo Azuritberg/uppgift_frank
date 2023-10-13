@@ -43,12 +43,6 @@ body {
     justify-content: center;
     align-items: center;
 
-
-    /*font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));*/
-    /*max-width: 1200px;*/
-    /* kanske funkar att bestämma width:en 
-    margin: 0 auto;
-    width: min(1200px, calc(80% + 100px));*/
 }
 
 /* main container and nav bar styles */
@@ -265,7 +259,6 @@ main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
 
 
 main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
-    /*font-family: 'Nunito';*/
     color: #f5dede;
     font-size: 1vw;
 }
@@ -655,6 +648,8 @@ footer p {
     }
 }
 
+/* Media Queris att texten slutar växa mellan 800 - 900px*/
+
 
 
 
@@ -988,6 +983,12 @@ footer p {
 
 }
 
+/* Media queries mobile - ends here */
+
+
+
+/* Media queries desktop text stops att 1200px - starts here */
+
 @media (min-width: 1200px) {
    
     h1 {
@@ -1066,20 +1067,24 @@ footer p {
 }
 
     
+/* Media queries desktop text stops att 1200px - ends here */
 
 
 
 
+
+
+
+
+
+
+/*rest not finnish */
 /* Media queries tabletform 
 
 @media (min-width: 500px) and (max-width: 800px){
 
 
 }*/
-
-
-
-
 
 /* test på att sätta bredden så den slutar växa??
 @media (min-width: 1200px){
