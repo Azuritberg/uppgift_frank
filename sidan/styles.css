@@ -292,6 +292,9 @@ main>div :nth-child(2)>div:nth-child(1) {
     background: linear-gradient(#eed29e, #ab68ea);
     border-radius: 10px 0 10px 10px;
     grid-column: 1;
+
+    display: flex;
+    align-items: center;
 }
 
 
@@ -306,6 +309,9 @@ main>div :nth-child(2)>div:nth-child(1) {
     background: linear-gradient(#eed29e, #ab68ea);
     grid-column: 3 / 4;
     border-radius: 10px 10px 10px 0;
+
+    display: flex;
+    align-items: center;
 }
 
 
@@ -339,6 +345,9 @@ main>div :nth-child(2)>div:nth-child(1) {
 .section>div>div:nth-child(4) {
     background: linear-gradient(#eed29e, #ab68ea);
     border-radius: 10px 10px 0 10px;
+
+    display: flex;
+    align-items: center;
 }
 
 
@@ -498,6 +507,9 @@ main {
     background: linear-gradient(#b5d03e, #12a947);
     border-radius: 10px 0 10px 10px;
     grid-column: 1;
+
+    display: flex;
+    align-items: center;
 }
 
 
@@ -510,6 +522,9 @@ main {
 .section2>div>div:nth-child(2) {
     background: linear-gradient(#b5d03e, #12a947);
     border-radius: 10px 10px 10px 0;
+
+    display: flex;
+    align-items: center;
 }
 
 
@@ -542,6 +557,9 @@ main {
 .section2>div>div:nth-child(4) {
     background: linear-gradient(#b5d03e, #12a947);
     border-radius: 10px 10px 0 10px;
+
+    display: flex;
+    align-items: center;
 }
 
 
