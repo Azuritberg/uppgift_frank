@@ -671,7 +671,7 @@ footer p {
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 12vw;
         text-align: center;
         margin-top: 40px;
         margin-left: 0;
@@ -781,7 +781,7 @@ footer p {
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 6vw;
         margin-top: 15px;
     }
 
@@ -953,19 +953,23 @@ footer p {
 
     /* larger font-size section 2 */
     .section2 > div > div:nth-child(1) > p {
-        font-size: 15px;
+        /*font-size: 15px;*/
+        font-size: 3vw;
         padding: 13px;
     }
     .section2 > div > div:nth-child(2) > p {
-        font-size: 15px;
+        /*font-size: 15px;*/
+        font-size: 3vw;
         padding: 13px;
     }
     .section2 > div > div:nth-child(3) > p {
-        font-size: 15px;
+        /*font-size: 15px;*/
+        font-size: 3vw;
         padding: 13px;
     }
     .section2 > div > div:nth-child(4) > p {
-        font-size: 15px;
+        /*font-size: 15px;*/
+        font-size: 3vw;
         padding: 13px;
     }
         /* larger font-size section 2 */
