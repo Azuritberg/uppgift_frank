@@ -676,3 +676,45 @@ footer p {
         font-size: 10px;
     }
 }
+
+
+
+
+
+/* Media queries mobile */
+
+@media (max-width: 500px) {
+    body {
+        background-image: url(images/mobilbakkomp.jpg);
+    }
+
+    #container1 {
+        background-color: rgba(49, 0, 211, 0);
+    }
+
+    main {
+        flex-direction: column-reverse;
+        margin-bottom: 0;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    nav {
+        margin-top: 60px;
+    }
+
+    nav a {
+        font-size: 20px;
+        padding: 6px;
+    }
+
+    nav a:hover,
+    nav a:focus {
+        font-size: 20px; 
+        padding: 6px;  
+    }
