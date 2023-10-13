@@ -735,3 +735,59 @@ footer p {
     main > div > div:nth-child(1) > img:nth-of-type(2) {
         border-radius: 10px 0 0 10px;
     }
+
+        /* Grid template - Channel ORANGE */
+        .section > div {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 10px;
+        }
+    
+        .section > div > div:nth-child(1) {
+            border-radius: 10px 0 10px 10px;
+            grid-column: 1;
+            grid-row: 1;
+        }
+        
+        
+        .section > div > div:nth-child(2) {
+            border-radius: 10px 10px 10px 0;
+            grid-column: 2 / 4;
+        }
+        
+        .section > div > div:nth-child(3) {
+            border-radius: 0 10px 10px 10px;
+            grid-column: 2;
+            grid-row: 2;
+    
+            justify-content: start;
+            align-items: flex-end;
+            display: flex;
+        }
+    
+        .section > div > div:nth-child(4) {
+            border-radius: 10px 10px 0 10px;
+            grid-column: 3;
+            grid-row: 2;
+        }
+    
+    
+        main > div:nth-child(1) {
+            width: 100%;
+            padding-right: 0;
+            margin-right: 0;
+        }
+    
+    
+        main > div:nth-child(2) {
+            width: 100%;
+            gap: 10px;
+        }
+    
+        /* middle text p */
+        main > div > p:nth-of-type(1) {
+            margin-bottom: 10px;
+            margin-top: 60px;
+            font-size: 18px;
+        }
+        /* middle text p */
