@@ -986,3 +986,81 @@ footer p {
     }
 
 }
+
+@media (min-width: 1200px) {
+   
+    h1 {
+        font-size: 70px;
+    }
+    nav a {
+        font-size: 26px;
+    }
+    /* styles navigationbar hover */
+    nav a:hover,
+    nav a:focus {
+        font-size: 26px;    
+    }
+    ul {
+        font-size: 15.5px;
+    }
+    h2 {
+        font-size: 48px;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    h5 {
+        font-size: 20.5px;
+    }
+    /* h6 color och font list in lp */
+    h6 {
+        font-size: 18px;
+    }
+    main > div > p:nth-of-type(1) {
+        font-size: 14.5px;
+    }
+    main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+        font-size: 12px;
+    }
+    
+    main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
+        font-size: 12px;
+    }
+    .section > div {
+        font-size: 12px;
+    }
+    .section > div > div:nth-child(1) > p {
+        font-size: 15px; 
+    }
+    .section > div > div:nth-child(2) > p {
+        font-size: 15px; 
+    }
+    .section > div > div:nth-child(4) > p {  
+        font-size: 15px; 
+    }
+    .section2 > main > div > p:nth-of-type(1) {
+        font-size: 14.5px;
+    }
+    .section2 > main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+        font-size: 12px;
+    }
+    .section2 > main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
+        font-size: 12px;
+    }
+    .section2 > div {
+        font-size: 12px;
+    }
+    .section2 > div > div:nth-child(1) > p { 
+        font-size: 15px; 
+    }
+    .section2 > div > div:nth-child(2) > p { 
+        font-size: 15px; 
+    }
+    .section2 > div > div:nth-child(4) > p { 
+        font-size: 15px;  
+    }
+    footer p {
+        font-size: 12px;
+    }
+}
+
