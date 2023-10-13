@@ -192,3 +192,184 @@ p {
     font-family: 'Nunito';
     color: #f5dede;
 }
+
+
+
+/* first section Channel Orange */
+.section {
+    background-color: rgba(49, 0, 211, 0.2);
+    border: 2px solid rgba(49, 0, 211, 0.2);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+main > div >div:nth-child(1) > img:nth-of-type(1) {
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+    z-index: 1;
+    transition: opacity 1s;
+}
+
+main > div >div:nth-child(1) > img:nth-of-type(2) {
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+main > div > div:nth-child(1) > img:nth-of-type(1):hover {
+    opacity: 0;
+}
+
+main > div > p:nth-of-type(1) {
+    padding-top: 5px;
+    margin-bottom: 0;
+
+    color: #f87122;
+    font-family: 'Nunito';
+    font-size: 1.3vw;
+    line-height: 1.2;
+}
+
+main > div:nth-child(1) {
+    width: 60%;
+    padding-right: 11px;
+}
+
+
+main > div:nth-child(2) {
+    width: 40%;
+    position: relative;
+    gap: 1vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+main > div:nth-child(1) > div {
+    display: flex;
+    gap: 1vw;
+
+    background: linear-gradient(#f89f22, #f87122);
+    padding: 10px;
+}
+
+main > div:nth-child(2) > div {
+    display: flex;
+    gap: 1vw;
+
+}
+
+main > div:nth-child(2) > div > div {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+    padding: 0;
+    font-size: 1vw;
+
+    color: #f5dede;
+}
+
+
+main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
+    /*font-family: 'Nunito';*/
+    color: #f5dede;
+    font-size: 1vw;
+}
+
+
+main > div :nth-child(2) > div:nth-child(2) {
+    position: relative;
+
+    background: linear-gradient(#f89f22, #f87122);
+    border-radius: 0 0 10px 0;
+    padding: 15px;
+}
+
+main > div :nth-child(2) > div:nth-child(1) {
+    position: relative;
+
+    background: linear-gradient(#f89f22, #f87122);
+    border-radius: 0 0 0 10px;
+    padding: 15px;
+}
+
+.section > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    gap: 1vw;
+    font-size: 1.1vw;
+}
+
+
+.section > div > div:nth-child(1) {
+    background: linear-gradient(#eed29e, #ab68ea);
+    border-radius: 10px 0 10px 10px;
+    grid-column: 1;
+}
+
+
+.section > div > div:nth-child(1) > p {
+    color: #3100d3;
+    padding: 15px;  
+    font-size: 1.2vw; 
+}
+
+
+.section > div > div:nth-child(2) {
+    background: linear-gradient(#eed29e, #ab68ea);
+    grid-column: 3 / 4;
+    border-radius: 10px 10px 10px 0;
+}
+
+
+.section > div > div:nth-child(2) > p {
+    color: #3100d3;
+    padding: 15px;  
+    font-size: 1.2vw; 
+}
+
+
+.section > div > div:nth-child(3) {
+    /*height: 12vw;*/
+    background-image: url(images/frank.jpg);
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 0 10px 10px 10px;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.section > div > div:nth-child(3) > p {
+    color: #f5dede;
+    padding: 10px;   
+    margin-top: 80px;
+    text-align: left;
+}
+
+
+.section > div > div:nth-child(4) {
+    background: linear-gradient(#eed29e, #ab68ea);
+    border-radius: 10px 10px 0 10px;
+}
+
+
+.section > div > div:nth-child(4) > p {
+    color: #3100d3;
+    padding: 15px;   
+    font-size: 1.2vw; 
+}
