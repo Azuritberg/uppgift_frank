@@ -591,3 +591,88 @@ footer p {
     font-size: 1vw;
     color: #3100d3;
 }
+
+
+
+
+
+
+
+
+/* Media Queris att texten slutar växa mellan 800 - 900px*/
+
+@media (min-width: 800px) and (max-width: 900px) {
+    h1 {
+        font-size: 50px;
+    }
+    nav a {
+        font-size: 20px;
+    }
+    /* styles navigationbar hover */
+    nav a:hover,
+    nav a:focus {
+        font-size: 20px;    
+    }
+    ul {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 17px;
+    }
+   
+    h6 {
+        font-size: 15px;
+    }
+    main > div > p:nth-of-type(1) {
+        font-size: 13px;
+    }
+    main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+        font-size: 12px;
+    }
+    
+    main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
+        font-size: 12px;
+    }
+    .section > div {
+        font-size: 12px;
+    }
+    .section > div > div:nth-child(1) > p {
+        font-size: 12px; 
+    }
+    .section > div > div:nth-child(2) > p {
+        font-size: 12px; 
+    }
+    .section > div > div:nth-child(4) > p {  
+        font-size: 12px; 
+    }
+    .section2 > main > div > p:nth-of-type(1) {
+        font-size: 13px;
+    }
+    .section2 > main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+        font-size: 12px;
+    }
+    .section2 > main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
+        font-size: 12px;
+    }
+    .section2 > div {
+        font-size: 12px;
+    }
+    .section2 > div > div:nth-child(1) > p { 
+        font-size: 12px; 
+    }
+    .section2 > div > div:nth-child(2) > p { 
+        font-size: 12px; 
+    }
+    .section2 > div > div:nth-child(4) > p { 
+        font-size: 12px;  
+    }
+    footer p {
+        font-size: 10px;
+    }
+}
