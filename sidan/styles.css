@@ -927,3 +927,62 @@ footer p {
     }
     
     /* Border-radius section 2 */
+
+     /* font-size list */
+     .section2 > main > div:nth-child(2) > div > div:nth-child(1) > ol > li {
+        font-size: 12px;
+    }
+
+    .section2 > main > div:nth-child(2) > div > div:nth-child(2) > ol > li {
+        font-size: 12px;
+    }
+    /* font-size list */
+
+
+
+    .section2 > main > div :nth-child(2) > div:nth-child(1) {
+        border-radius: 0 0 0 10px;
+    }
+
+    .section2 > main > div :nth-child(2) > div:nth-child(2) {
+        border-radius: 0 0 10px 0;
+    }
+
+    .section2 > main > div > p:nth-of-type(1) {
+        font-size: 3.5vw;
+        padding-right: 0;
+        margin-right: 0;
+
+    }
+
+
+    /* larger font-size section 2 */
+    .section2 > div > div:nth-child(1) > p {
+        font-size: 15px;
+        padding: 13px;
+    }
+    .section2 > div > div:nth-child(2) > p {
+        font-size: 15px;
+        padding: 13px;
+    }
+    .section2 > div > div:nth-child(3) > p {
+        font-size: 15px;
+        padding: 13px;
+    }
+    .section2 > div > div:nth-child(4) > p {
+        font-size: 15px;
+        padding: 13px;
+    }
+        /* larger font-size section 2 */
+
+    footer {
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+        
+    footer p {
+        font-size: 13px;
+    }
+
+}
